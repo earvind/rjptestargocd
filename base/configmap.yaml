@@ -1,0 +1,15 @@
+apiVersion: v1
+
+kind: ConfigMap
+
+metadata:
+
+  name: my-app-config
+
+data:
+
+  APP_ENV: "base"
+
+  LOG_LEVEL: "info"
+
+  MAX_CONNECTIONS: "100"
